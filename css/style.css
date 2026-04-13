@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  background: #ffffff;
+  color: #111111;
+  font-family: "Times New Roman", Times, serif;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+}
+
+h1:first-of-type {
+  font-size: 56px;
+  margin-bottom: 34px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.35;
+}
+
+.space-top {
+  margin-top: 34px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+h1:not(:first-of-type) {
+  margin-top: 48px;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+h2 {
+  margin-top: 38px;
+  font-size: 56px;
+  font-weight: 700;
+}
+
+h3 {
+  margin-top: 40px;
+  font-size: 42px;
+  font-weight: 700;
+}
+
+h4 {
+  margin-top: 42px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h5 {
+  margin-top: 48px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+h6 {
+  margin-top: 48px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.accent {
+  color: #ff5a52;
+}
+
+.center-text {
+  margin-top: 28px;
+  text-align: center;
+}
+
+sup,
+sub {
+  font-size: 0.75em;
+}
+
+@media (max-width: 768px) {
+  h1:first-of-type {
+    font-size: 34px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  h1:not(:first-of-type) {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 38px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+}
